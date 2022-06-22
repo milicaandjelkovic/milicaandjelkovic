@@ -124,21 +124,49 @@ CRISP-DM aметодологија је описана као модел хиј�
 
 
 
-# Task 2: Regression
+# Task 2: Classification problem
 
-**About problem:**
+**About Dataset**
 
-A company wants to be able to predict its sale for the next period.
+There has been a revenue decline in the Portuguese Bank and they would like to know what actions to take. After investigation, they found that the root cause was that their customers are not investing enough for long term deposits. So the bank would like to identify existing customers that have a higher chance to subscribe for a long term deposit and focus marketing efforts on such customers. 
 
-**Data contains the following variables:**
+**Data Set Information**
 
-*Independent variables:*
-- TV promotion budget (in million)
-- Social Media promotion budget (in million)
-- Radio promotion budget (in million)
-- Influencer: Whether the promotion collaborate with Mega, Macro, Nano, Micro influencer
+The data is related to direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be subscribed ('yes') or not ('no') subscribed.
 
-*Dependent variable:*
-- Sales (in million)
+**Goal:**
+
+- The classification goal is to predict if the client will subscribe (yes/no) a term deposit (variable y).
+
+## The flow of the project:
+1. Business understanding
+- Explanation of the problem, what is cause of problem, what is the goal.
+- Explanation of the variables (which ones are independent and which one is dependent).
+- Setting some research hypothesis
+
+2. Data understanding
+
+2.1. Libraries and data loading
+2.2. Preliminary data insight
+2.3. Descriptive statistics and visualisation of numeric variables
+2.4. Descriptive statistics and visualisation of categorical variabales
+
+3. Data prepraration
+
+3.1. Detection of outliers
+3.2. Testing the hypothesis of (in) dependence of attributive features
+3.3. Encoding of categorical variables
+3.4. Correlation matrix and selection of variables for modeling
+3.5. SMOTE
+
+4. Modeling
+
+4.1. LogisticRegression
+4.2. DecisionTree
+4.3. KNN
+
+5. Evaluation of models
+
+6. Conclusion
 
 
