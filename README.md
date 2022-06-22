@@ -1,4 +1,4 @@
-# CRISP-DM 
+# Task 1: CRISP-DM 
 ## Mетодологија примене машинског учења (CRISP-DM)
 ### 1.	Анализа и разумевање пословног проблема
 
@@ -122,5 +122,23 @@ CRISP-DM aметодологија је описана као модел хиј�
 11)	Да ли оператер обезбеђује наградне игре за postpaid кориснике (греб-греб игрица са наградама у виду бесплатног интернета за наредних 5 дана, одређени износ кредита за нарених 7 дана, итд.)?
 12)	Да ли је корисник услуга телефонског оператера куповао мобилни телефон код мобилног оператера?
 
+
+
+# Task 2: Regression
+
+**About problem:**
+
+A company wants to be able to predict its sale for the next period.
+
+**Data contains the following variables:**
+
+*Independent variables:*
+- TV promotion budget (in million)
+- Social Media promotion budget (in million)
+- Radio promotion budget (in million)
+- Influencer: Whether the promotion collaborate with Mega, Macro, Nano, Micro influencer
+
+*Dependent variable:*
+- Sales (in million)
 
 
