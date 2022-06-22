@@ -146,27 +146,30 @@ The data is related to direct marketing campaigns of a Portuguese banking instit
 
 2. Data understanding
 
-2.1. Libraries and data loading
-2.2. Preliminary data insight
-2.3. Descriptive statistics and visualisation of numeric variables
-2.4. Descriptive statistics and visualisation of categorical variabales
+- 2.1. Libraries and data loading
+- 2.2. Preliminary data insight
+- 2.3. Descriptive statistics and visualisation of numeric variables
+- 2.4. Descriptive statistics and visualisation of categorical variabales
 
 3. Data prepraration
 
-3.1. Detection of outliers
-3.2. Testing the hypothesis of (in) dependence of attributive features
-3.3. Encoding of categorical variables
-3.4. Correlation matrix and selection of variables for modeling
-3.5. SMOTE
+- 3.1. Detection of outliers
+- 3.2. Testing the hypothesis of (in) dependence of attributive features
+- 3.3. Encoding of categorical variables
+- 3.4. Correlation matrix and selection of variables for modeling
+- 3.5. SMOTE
 
 4. Modeling
 
-4.1. LogisticRegression
-4.2. DecisionTree
-4.3. KNN
+- 4.1. LogisticRegression
+- 4.2. DecisionTree
+- 4.3. KNN
 
 5. Evaluation of models
 
 6. Conclusion
+- drawing conclusions about data 
+- proposing information that could imporve the model and results
+- confirmation or rejection of initial hypothesis
 
 
