@@ -124,7 +124,7 @@ CRISP-DM aметодологија је описана као модел хиј�
 
 
 
-# Task 2: Classification problem
+# Task 2: Project for internship - Classification of bank's clients
 
 **About Dataset**
 
